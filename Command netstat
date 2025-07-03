@@ -1,0 +1,16 @@
+The netstat command generates displays that show network status and protocol statistics. You can display the status of TCP and UDP endpoints in table format, 
+routing table information, and interface information.
+
+netstat [-m] [-n] [-s] [-i | -r] [-f address_family]
+
+
+netstat -s 
+option displays per protocol statistics for the UDP, TCP, ICMP, and IP protocols. The result resembles the display shown in the example below. 
+(Parts of the output have been truncated.) The information can indicate areas where a protocol is having problems. For example, statistical information from ICMP can indicate where this protocol has found errors.
+
+netstat -i.
+shows the state of the network interfaces that are configured with the machine where you ran the command.
+
+ netstat -r
+displays the IP routing table. 
+
