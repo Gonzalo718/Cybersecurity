@@ -1,0 +1,22 @@
+          Comando	ip config
+
+ipconfig	Muestra la configuración básica TCP/IP (IPv4, IPv6, máscara de subred, gateway) de todos los adaptadores
+
+ipconfig /all	Muestra la configuración completa (incluye MAC, DHCP, DNS, lease, etc.) de todos los adaptadores
+ipconfig /renew <adaptador>	Renueva la dirección IPv4 DHCP para el adaptador especificado
+ipconfig /release <adaptador>	Libera la dirección IPv4 DHCP del adaptador especificado
+ipconfig /flushdns	Limpia la caché del resolvedor DNS local
+ipconfig /displaydns	Muestra el contenido de la caché DNS local
+ipconfig /registerdns	refresca el registro dinámico de nombres e IP en el DNS
+ipconfig /showclassid <adaptador>	Muestra el ID de clase DHCP del adaptador (o de todos con comodín *)
+ipconfig /setclassid <adaptador> [ClassID]	Establece o elimina (si se omite ClassID) el ID de clase DHCP del adaptador
+ipconfig /renew6 <adaptador>	Renueva la dirección IPv6 DHCP para el adaptador especificado
+ipconfig /release6 <adaptador>	Libera la dirección IPv6 DHCP del adaptador especificado
+ipconfig /showclassid6 <adaptador>	Muestra el ID de clase DHCP IPv6 del adaptador
+ipconfig /setclassid6 <adaptador> [ClassID]	Establece o elimina el ID de clase DHCP IPv6 del adaptador
+ipconfig /allcompartments	Muestra la configuración TCP/IP para todos los compartimientos de red
+
+
+
+
+
