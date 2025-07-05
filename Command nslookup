@@ -1,0 +1,29 @@
+nslookup
+
+Displays information that you can use to diagnose Domain Name System (DNS) infrastructure. 
+
+
+nslookup exit	Exits the nslookup command-line tool.
+nslookup finger	Connects with the finger server on the current computer.
+nslookup help	Displays a short summary of subcommands.
+nslookup ls	Lists information for a DNS domain.
+nslookup lserver	Changes the default server to the specified DNS domain.
+nslookup root	Changes the default server to the server for the root of the DNS domain name space.
+nslookup server	Changes the default server to the specified DNS domain.
+nslookup set	Changes configuration settings that affect how lookups function.
+nslookup set all	Prints the current values of the configuration settings.
+nslookup set class	Changes the query class. The class specifies the protocol group of the information.
+nslookup set d2	Turns exhaustive Debugging mode on or off. All fields of every packet are printed.
+nslookup set debug	Turns Debugging mode on or off.
+nslookup set domain	Changes the default DNS domain name to the name specified.
+nslookup set port	Changes the default TCP/UDP DNS name server port to the value specified.
+nslookup set querytype	Changes the resource record type for the query.
+nslookup set recurse	Tells the DNS name server to query other servers if it doesn't have the information.
+nslookup set retry	Sets the number of retries.
+nslookup set root	Changes the name of the root server used for queries.
+nslookup set search	Appends the DNS domain names in the DNS domain search list to the request until an answer is received. This applies when the set and the lookup request contain at least one period, but do not end with a trailing period.
+nslookup set srchlist	Changes the default DNS domain name and search list.
+nslookup set timeout	Changes the initial number of seconds to wait for a reply to a request.
+nslookup set type	Changes the resource record type for the query.
+nslookup set vc	Specifies to use or not use a virtual circuit when sending requests to the server.
+nslookup view	Sorts and lists the output of the previous ls subcommand or commands.
